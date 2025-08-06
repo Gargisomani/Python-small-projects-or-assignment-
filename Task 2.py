@@ -1,4 +1,4 @@
-str1=input("Enter the first name: ")
-str2=input("Enter the second name: ")
-
-print("Hello, "+ str1 +" "+ str2 + "! Welcome to the Python Program" )
+num=0
+for i in range(1,51):
+    num=num+i
+print("The sum of numbers from 1 to 50 is: ",num)
